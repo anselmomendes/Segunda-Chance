@@ -98,8 +98,10 @@ void exibeMatriz(Arquivo A[TAMANHO]){
 		int algoritimo;
 		do{
 		printf("#####################################################\nSistema de gerenciamento de memoria - segunda chance.\n#####################################################\n\n");
-		printf("1 - Exibir dados.\n2 - Alocar dados.\n3 - Acessar dados.\n4 - Excluir dados.\n5 - Simular preenchimento.\n6 - Sair.\n");
+		printf("1 - Exibir dados.\n2 - Alocar dados.\n3 - Acessar dados.\n4 - Excluir dados.\n5 - Simular preenchimento.\n6 - Sair.\n\n");
+		printf("Digite uma opção: ");
 		scanf("%d",&algoritimo);
+		printf("\n\n");
 		if(algoritimo < 1 || algoritimo > 6){
 			printf("Opcao invalida!!\n");
 		}
