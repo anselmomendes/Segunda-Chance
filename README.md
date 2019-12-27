@@ -3,15 +3,15 @@
 
 ## Gerenciamento de memória
 
-* O algoritimo Segunda chance implementa **FIFO** *(first in, first out)* modificado, ele acresenta um bit R para cada bloco de memória com a intenção manter na memória as paginas que mais estão sendo utilizadas.
+* O algoritimo Segunda chance implementa **FIFO** *(first in, first out)* modificado, ele acresenta um bit R para cada bloco de memória com a intenção manter na memória as páginas que mais estão sendo utilizadas.
 
-* O bit dos blocos de memoria possui dois estados 0 ou 1.
+* O bit dos blocos de memória possui dois estados 0 ou 1.
 * Toda vez que a página é acessada o seu bit é atualizado para 1.
-* No momento que o Sistema Operacional (SO) tenta remover a pagina, ele verifica o bit R.
+* No momento que o Sistema Operacional (SO) tenta remover a página, ele verifica o bit R.
   * Se for 0 (página não foi acessada), remova-a.
   * Se for 1, zere-o e de uma segunda chance à pobre da página.
  
-## Como Utilizar o programa?
+## Como utilizar o programa?
 
 * Quando executamos o programa ele nós leva para o menu com seis opções:
 
@@ -24,21 +24,21 @@
 
 ### Exibir Dados.
 
-![Ixibir Dados](https://github.com/anselmomendes/Segunda-Chance/blob/master/imagens/001.jpg)
+![Exibir Dados](https://github.com/anselmomendes/Segunda-Chance/blob/master/imagens/001.jpg)
 
-Essa função é muito simplis, ela mostra a pagina de memória e seus respctivos conteudos e o bit R como na figura acima.
+Essa função é muito simplis, ela mostra a página de memória e seus respectivos conteúdos e o bit R como na figura acima.
 
 ### Alocar Dados.
 
 ![Alocar Dados](https://github.com/anselmomendes/Segunda-Chance/blob/master/imagens/004.jpg)
 
-Essa função permite escolher uma posição da pagina, e substituir ou setar um valor para posição, como concequencia o bit R será setado para 1.
+Essa função permite escolher uma posição da página, e substituir ou setar um valor para posição, como consequência o bit R será setado para 1.
 
 ### Acessar Dados.
 
 ![Acessar Dados](https://github.com/anselmomendes/Segunda-Chance/blob/master/imagens/005.jpg)
 
-Essa função permite acessar a posição da pagina, essa ação permite setar o bit R para 1, caso tenha alguma informação na posição de memoria.
+Essa função permite acessar a posição da página, essa ação permite setar o bit R para 1, caso tenha alguma informação na posição de memória.
 
 ### Excluir Dados.
 
@@ -47,7 +47,7 @@ A função excluir realiza a consulta do bit R e realiza a exclusão do conteúd
 ![Excluir Dados](https://github.com/anselmomendes/Segunda-Chance/blob/master/imagens/006a.jpg)
 ![Excluir Dados](https://github.com/anselmomendes/Segunda-Chance/blob/master/imagens/006b.jpg)
 
-### Simular Preenchimento.
+### Simular preenchimento.
 
 ![Simular Preenchimento](https://github.com/anselmomendes/Segunda-Chance/blob/master/imagens/007.jpg)
 
